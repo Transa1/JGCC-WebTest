@@ -46,7 +46,7 @@ patsy==0.5.6
 pillow==10.2.0
 polars==0.20.10
 protobuf==5.29.3
-psycopg2==2.9.10
+psycopg2-binary
 pyarrow==15.0.0
 Pygments==2.19.1
 pyparsing==3.1.1
