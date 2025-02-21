@@ -5,7 +5,7 @@ ENVIRONMENT = os.getenv('ENVIRONMENT', 'development')
 DEBUG = True
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-05sgp9!deq=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.100.11', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -14,7 +14,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core'
+    'core',
 ]
 
 MIDDLEWARE = [
@@ -62,8 +62,8 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": 'postgres',
         "USER": 'postgres',
-        "PASSWORD": '',
-        "HOST": '',
+        "PASSWORD": 'sDZ8FIjK6MYaNoZ5',
+        "HOST": 'db.kruiyjekaiyrrzjjlfji.supabase.co',
         "PORT": '5432',
     }
 }
